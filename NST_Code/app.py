@@ -64,7 +64,7 @@ def style_transfer(content_pil, style_pil, alpha):
     """
     # 512 gives much better quality — network is fully convolutional, any size works
     tfm = transforms.Compose([
-        transforms.Resize(512),
+        transforms.Resize(256),
         transforms.ToTensor(),       # [0, 1], normalization handled inside VGG
     ])
 
