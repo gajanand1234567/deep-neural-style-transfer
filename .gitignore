@@ -1,0 +1,34 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Python bytecode
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# Large model weights (download separately)
+*.pth
+
+# Uploaded images (runtime generated)
+NST_Code/static/uploads/*
+!NST_Code/static/uploads/.gitkeep
+static/uploads/*
+!static/uploads/.gitkeep
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
