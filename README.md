@@ -77,7 +77,7 @@ cd NST_Code
 python app.py
 ```
 
-Open your browser at **http://localhost:5000**
+Open your browser at **https://deep-neural-style-transfer.onrender.com**
 
 ---
 
